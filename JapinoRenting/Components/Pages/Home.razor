@@ -1,4 +1,6 @@
 ﻿@page "/"
+@using JapinoRenting.Data
+@inject ApplicationDbContext db
 
 <PageTitle>Home</PageTitle>
 
@@ -12,7 +14,7 @@
         <button class="btn btn-primary">See all cars</button>
       </div>
     </div>
-  </section> 
+  </section>
   <section class="w-full flex flex-col items-center mt-20">
     <div class="stats stats-horizontal shadow">
       <div class="stat">
