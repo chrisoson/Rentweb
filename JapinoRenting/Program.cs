@@ -5,7 +5,6 @@ using JapinoRenting.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Tailwind;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -66,10 +65,5 @@ app.MapRazorComponents<App>()
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
-
-if (app.Environment.IsDevelopment())
-{
-    app.RunTailwind("tailwind", "./");
-}
 
 app.Run();

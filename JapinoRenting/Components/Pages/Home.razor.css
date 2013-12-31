@@ -1,0 +1,12 @@
+﻿img {
+    border-radius: 10px;
+}
+
+section{
+    margin: 4em 0;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+}
