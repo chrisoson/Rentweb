@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JapinoRenting.Client", "Jap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JapinoRenting.Data", "JapinoRenting.Data\JapinoRenting.Data.csproj", "{F814DA49-0B16-4323-BB2A-578E486019C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JapinoRenting.Api", "JapinoRenting.Api\JapinoRenting.Api.csproj", "{9755C55D-9C93-4F5C-A7AE-A511E42E689E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F814DA49-0B16-4323-BB2A-578E486019C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F814DA49-0B16-4323-BB2A-578E486019C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F814DA49-0B16-4323-BB2A-578E486019C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9755C55D-9C93-4F5C-A7AE-A511E42E689E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9755C55D-9C93-4F5C-A7AE-A511E42E689E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9755C55D-9C93-4F5C-A7AE-A511E42E689E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9755C55D-9C93-4F5C-A7AE-A511E42E689E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
